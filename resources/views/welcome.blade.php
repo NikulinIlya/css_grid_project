@@ -1,45 +1,131 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>CSS Grid Example</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
-        <style>
-            html, body {
-                height: 100%;
-            }
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
+        <header>
+            <div class="top-nav container">
+                <div class="logo">CSS Grid Example</div>
+                <ul>
+                    <li><a href="#">Shop</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Cart</a>
+                    </li>
+                </ul>
+            </div> <!-- end top-nav -->
+
+            <div class="hero container">
+                <div class="hero-copy">
+                    <h1>Css Grid Example</h1>
+                    <p>A practical example of using CSS Grid for a typical website layout.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="button button-white">Button 1</a>
+                        <a href="#" class="button button-white">Button 2</a>
+                    </div>
+                </div> <!-- end hero-copy -->
+                
+                <div class="hero-image">
+                    <img src="img/macbook-pro-laravel.png" alt="hero image">
+                </div>
+            </div> <!-- end hero -->
+        </header>
+
+        <div class="featured-section">
+            <div class="container">
+                <h1 class="text-center">CSS Grid Example</h1>
+
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad at esse facilis, minima officia.</p>
+                <div class="text-center button-container">
+                    <a href="#" class="button">Featured</a>
+                    <a href="#" class="button">On Sale</a>
+                </div>
+
+
+                <div class="products text-center">
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href="#"><span class="product-name">MacBook Pro</span></a>
+                        <div class="product-price">$2499.99</div>
+                    </div>
+                </div> <!-- end products -->
+
+                <div class="text-center button-container">
+                    <a href="#" class="button">View more products</a>
+                </div>
+            </div> <!-- end container -->
+        </div> <!-- end feature section -->
+
+        <div class="blog-section">
+            <div class="container">
+                <h1 class="text-center">From Our Blog</h1>
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eius fugit magnam minima modi perferendis unde vel, voluptates voluptatibus.</p>
+
+                <div class="blog-posts">
+                    <div class="blog-post">
+                        <a href="#"><img src="img/blog1.png" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
+                        <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, qui.</div>
+                    </div>
+                    <div class="blog-post">
+                        <a href="#"><img src="img/blog2.png" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
+                        <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, qui.</div>
+                    </div>
+                    <div class="blog-post">
+                        <a href="#"><img src="img/blog3.png" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
+                        <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, qui.</div>
+                    </div>
+                </div> <!-- end blog-posts -->
+            </div> <!-- end container -->
+        </div> <!-- end blog-section -->
+
+
     </body>
 </html>
