@@ -3,9 +3,14 @@
     <head>
         <title>CSS Grid Example</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <!-- Fonts -->
+        {{--<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">--}}
+        <link href="https://fonts.googleapis.com/css?family=Monserrat|Roboto:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
     </head>
     <body>
@@ -132,7 +137,7 @@
                 <div class="made-with">Made with <i class="far fa-heart"></i> by IN</div>
                 <ul>
                     <li>Follow Me:</li>
-                    <li><a href="#"><i class="fab fa-globe"></i></a></li>
+                    <li><a href="#"><i class="fas fa-globe"></i></a></li>
                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                     <li><a href="#"><i class="fab fa-github"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
