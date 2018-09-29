@@ -94,11 +94,6 @@
                         <a href="#"><span class="product-name">MacBook Pro</span></a>
                         <div class="product-price">$2499.99</div>
                     </div>
-                    <div class="product">
-                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
-                        <a href="#"><span class="product-name">MacBook Pro</span></a>
-                        <div class="product-price">$2499.99</div>
-                    </div>
                 </div> <!-- end products -->
 
                 <div class="text-center button-container">
@@ -113,17 +108,17 @@
                 <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eius fugit magnam minima modi perferendis unde vel, voluptates voluptatibus.</p>
 
                 <div class="blog-posts">
-                    <div class="blog-post">
+                    <div class="blog-post" id="blog1">
                         <a href="#"><img src="img/blog1.png" alt="blog image"></a>
                         <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, qui.</div>
                     </div>
-                    <div class="blog-post">
+                    <div class="blog-post" id="blog2">
                         <a href="#"><img src="img/blog2.png" alt="blog image"></a>
                         <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, qui.</div>
                     </div>
-                    <div class="blog-post">
+                    <div class="blog-post" id="blog3">
                         <a href="#"><img src="img/blog3.png" alt="blog image"></a>
                         <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, qui.</div>
